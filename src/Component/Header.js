@@ -30,7 +30,7 @@ function Header() {
 
           {/* Navigation Links & Icons */}
           <div
-            className={`absolute md:static top-16 left-0 w-full md:w-auto z-10 bg-transparent md:bg-transparent md:flex flex-col md:flex-row text-center justify-center items-center md:space-x-6 md:font-bold text-white transition-transform ${
+            className={`absolute md:static top-16 left-0 w-full md:w-auto z-20 bg-black md:bg-transparent md:flex flex-col md:flex-row text-center justify-center items-center md:space-x-6 md:font-bold text-white transition-transform ${
               menuOpen ? "block" : "hidden"
             }`}
           >
@@ -67,7 +67,7 @@ function Header() {
             </nav>
 
             {/* Search & Shopping Bag Icons */}
-            <div className="flex space-x-4 mt-4 md:mt-0 text-white">
+            <div className="flex items-center justify-center space-x-4 mt-4 md:mt-0 md:items-center text-white">
               <button className="hover:cursor-pointer text-lg">
                 <IoMdSearch />
               </button>
