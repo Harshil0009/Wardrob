@@ -117,7 +117,7 @@ export default function Home() {
                 <div className='h-36 flex flex-col justify-center items-center gap-2'>
                     <FaLock className='text-2xl'/>
                     <h3 className='text-2xl font-medium italic'>Secure Payments</h3>
-                    <p className='text-gray-400 w-56 text-center'>Shop with confidence knowing that your transactions are safeguarded.</p>
+                    <p className='text-gray-400 w-56 text-center'>Shop with confidence your transactions are safeguarded.</p>
                 </div>
                 <div className='h-36 flex flex-col justify-center items-center gap-2'>
                     <FaTruck className='text-2xl'/>
